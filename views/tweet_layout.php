@@ -20,13 +20,13 @@
                     src="img/tweet/1.jpg" 
                     alt="" 
                     style="width:40px; height:40px;">
-                      <?= $result['name'] ?>
+                      <?= $row['name'] ?>
                   </h5>
                   <h6 class="card-subtitle mb-2 text-muted">
-                      <?= $result['created_at'] ?>
+                      <?= $row['created_at'] ?>
                   </h6>
                   <p class="card-text">
-                      <?= $result['body'] ?>
+                      <?= $row['body'] ?>
                   </p>
                   <div class="input-group mb-3">
   <div class="input-group-prepend">
