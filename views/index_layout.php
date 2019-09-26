@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>TwEeTeR</title>
+    <title>TwAt</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-  <a class="navbar-brand" href="#">TwEeTeR</a>
+  <a class="navbar-brand" href="index.php">TwAt</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,7 +19,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">My Home <span class="sr-only">(current)</span></a>
         <i class="material-icons">
         home
         </i>
@@ -58,8 +58,8 @@ mail_outline
                 <div class="card-body">
                   <h5 class="card-title">
                   <img class="rounded-circle" 
-                    src="img/tweet/1.jpg" 
-                    alt="" 
+                      src="https://robohash.org/<?= $row['name'] ?>" 
+                      alt="profilePic "
                     style="width:40px; height:40px;">
                       <?= $row['name'] ?>
                   </h5>
